@@ -7,6 +7,132 @@
   <title>Document</title>
 </head>
 <body>
+  <div id="src-otp-input" locale="en_US" card-brands="" display-cancel-option="false" error-reason=""
+  masked-identity-value="+1 (***) ***-*949" network-id="Mastercard" type="" is-successful="false" display-header="true"
+  auto-submit="false" disable-elements="false" hide-loader="false" class="hydrated">
+    <div class="wrapper root-container">
+      <div class="container">
+        <div class="row false">
+          <div class="col">
+            <header class="root-container">
+              <div class="container-fluid">
+                <div class="row-space-between">
+                  <div class="header__brand col-1">
+                    <div class="header__brand__item header__brand__item--src"><i class="icon-src"
+                        style="background-image: url(&quot;/src-ui-kit/assets/icons/src.svg&quot;);"></i></div>
+                    <div class="header__brand__src-title bold margin-bottom-none"> CLICK TO PAY </div>
+                    <div class="header__brand__item"></div>
+                  </div>
+                </div>
+              </div>
+            </header>
+          </div>
+        </div>
+      </div>
+      <main class="main false">
+        <div class="container">
+          <form>
+            <div class="row">
+              <div class="col-full">
+                <h1>We need to verify you</h1>
+                <h2>Enter the code Mastercard sent to +1 (•••) •••-•949.</h2>
+              </div>
+              <div class="col-full">
+                <div class="wrapper root-container">
+                  <div class="container">
+                    <div class="row false">
+                      <div class="col">
+                        <header class="root-container">
+                          <div class="container-fluid">
+                            <div class="row-space-between">
+                              <div class="header__brand col-1">
+                                <div class="header__brand__item header__brand__item--src"><i class="icon-src"
+                                    style="background-image: url(&quot;/src-ui-kit/assets/icons/src.svg&quot;);"></i>
+                                </div>
+                                <div class="header__brand__src-title bold margin-bottom-none"> CLICK TO PAY </div>
+                                <div class="header__brand__item"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </header>
+                      </div>
+                    </div>
+                  </div>
+                  <main class="main false">
+                    <div class="container">
+                      <form>
+                        <div class="row">
+                          <div class="col-full">
+                            <h1>We need to verify you</h1>
+                            <h2>Enter the code Mastercard sent to +1 (•••) •••-•949.</h2>
+                          </div>
+                          <div class="col-full">
+                            <form class="root-container">
+                              <div class="al-input al-input--code">
+                                <div class="al-input--code__fields-container">
+                                  <input aria-label="Enter Otp - digit number - 0" class="al-input--code__fields"
+                                    type="tel">
+                                  <input aria-label="Enter Otp - digit number - 1" class="al-input--code__fields"
+                                    type="tel">
+                                  <input aria-label="Enter Otp - digit number - 2" class="al-input--code__fields"
+                                    type="tel">
+                                  <input aria-label="Enter Otp - digit number - 3" class="al-input--code__fields"
+                                    type="tel">
+                                  <input aria-label="Enter Otp - digit number - 4" class="al-input--code__fields"
+                                    type="tel">
+                                  <input aria-label="Enter Otp - digit number - 5" class="al-input--code__fields"
+                                    type="tel">
+                                </div>
+                                <div class="al-input--code__subtext">
+                                  <slot>&nbsp;</slot>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="row-vertical-align-bottom src-otp-input__cta-container">
+                          <div class="col-full align-center">
+                            <div class="al-button al-button--disabled false"><button class="fill" disabled=""><span
+                                  class="al-button__label">
+                                  <slot></slot>
+                                </span>
+                                <div class="al-button__dancing-dots">
+                                  <div class="dancing-dot dancing-dot--1"></div>
+                                  <div class="dancing-dot dancing-dot--2"></div>
+                                  <div class="dancing-dot dancing-dot--3"></div>
+                                </div>
+                              </button></div>
+                          </div>
+                          <div class="col-full margin-top-sm"><button type="button" class="btn--secondary">Continue
+                              another way</button></div>
+                        </div>
+                      </form>
+                    </div>
+                  </main>
+                </div>
+              </div>
+            </div>
+            <div class="row-vertical-align-bottom src-otp-input__cta-container">
+              <div class="col-full align-center">
+                <div class="al-button al-button--disabled false"><button class="fill" disabled=""><span
+                      class="al-button__label">
+                      <slot></slot>
+                    </span>
+                    <div class="al-button__dancing-dots">
+                      <div class="dancing-dot dancing-dot--1"></div>
+                      <div class="dancing-dot dancing-dot--2"></div>
+                      <div class="dancing-dot dancing-dot--3"></div>
+                    </div>
+                  </button></div>
+              </div>
+              <div class="col-full margin-top-sm"><button type="button" class="btn--secondary">Continue another
+                  way</button></div>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+  </div>
   <form autocomplete="on">
     <input autocomplete="one-time-code" type="tel" placeholder="form > input, all autocompletes"></input>
   </form>
