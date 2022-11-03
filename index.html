@@ -8,7 +8,36 @@
 </head>
 <body>
   <form autocomplete="on">
-    <input autocomplete="one-time-code" type="tel"></input>
+    <input autocomplete="one-time-code" type="tel" placeholder="form > input, all autocompletes"></input>
   </form>
+  <form autocomplete="on">
+    <input type="tel" placeholder="form > input, only form autocomplete"></input>
+  </form>
+  <form>
+    <input type="tel" placeholder="form > input, no autocompletes"></input>
+  </form>
+  <form autocomplete="on">
+    <div>
+      <input autocomplete="one-time-code" type="tel" placeholder="form > div > input, all autocompletes"></input>
+    </div>
+  </form>
+  <form autocomplete="on">
+    <div>
+      <input autocomplete="one-time-code" type="tel" placeholder="form > div > input, input autocompletes"></input>
+    </div>
+  </form>
+  <form autocomplete="on">
+    <div><div>
+      <input autocomplete="one-time-code" type="tel" placeholder="form > div > div > input, input autocompletes"></input>
+    </div></div>
+  </form>
+  <form autocomplete="on">
+    <div><div>
+      <input autocomplete="one-time-code" type="tel" placeholder="form > div > div > input, input autocompletes"></input>
+      <input autocomplete="one-time-code" type="tel" placeholder="form > div > div > input, input autocompletes"></input>
+      <input autocomplete="one-time-code" type="tel" placeholder="form > div > div > input, input autocompletes"></input>
+    </div></div>
+  </form>
+  
 </body>
 </html>
